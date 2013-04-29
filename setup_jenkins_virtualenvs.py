@@ -118,8 +118,6 @@ def create_all_environments():
                     os.remove(main_env)
                 os.symlink(os.path.join(config.root, name), main_env)
 
-    create_environment('env-nocython', '2.7', ['numpy'])
-
 
 if __name__ == '__main__':
     create_all_environments()
