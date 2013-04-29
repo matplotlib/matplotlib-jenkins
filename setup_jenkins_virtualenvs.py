@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 """
 This script sets up and/or updates all of the virtualenvs required for
-the astropy builds on Shining Panda.
+the matplotlib builds on Shining Panda.
 
 It is not intended to be terribly useful outside of Shining Panda,
 since it assumes that all of the desired versions of Python are

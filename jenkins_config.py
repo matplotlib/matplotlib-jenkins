@@ -1,5 +1,5 @@
 """
-Configuration for the astropy Shining Panda tools.
+Configuration for the matplotlib Shining Panda tools.
 """
 import os
 
@@ -33,8 +33,8 @@ root = os.path.expanduser('~')
 # to Shining Panda.
 python_interpreter_path = '/sp/bin'
 
-# The root URL of the astropy Jenkins dashboard website
-root_url = "https://jenkins.shiningpanda.com/astropy/"
+# The root URL of the matplotlib Jenkins dashboard website
+root_url = "https://jenkins.shiningpanda.com/matplotlib/"
 
 # A regular expression to match the builds that should have the matrix
 # of Python and Numpy versions updated.

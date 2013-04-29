@@ -27,7 +27,7 @@ def fix_url(url):
 
 def get_build_list():
     """
-    Gets the list of all builds in astropy's Jenkins instance.
+    Gets the list of all builds in matplotlib's Jenkins instance.
     """
     r = requests.get(fix_url(config.root_url + "api/json"))
     build_list = r.json()

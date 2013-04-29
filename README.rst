@@ -1,5 +1,5 @@
-Astropy Shining Panda Scripts
-=============================
+Matplotlib Shining Panda Scripts
+================================
 
 This repository contains a set of scripts for managing the
 configuration of Debian builds on Shining Panda.  This stuff is
