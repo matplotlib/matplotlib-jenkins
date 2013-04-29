@@ -21,10 +21,10 @@ versions = {
 main = (2.7, 1.7)
 
 # Additional packages to install in each virtualenv
-additional_packages = ['cython']
+additional_packages = ['cython', 'nose', 'PIL']
 
 # Additional packages to install in the "main" virtualenv
-main_packages = ['sphinx', 'pytest-cov', 'matplotlib']
+main_packages = ['sphinx']
 
 # The root path for the virtual environments
 root = os.path.expanduser('~')
@@ -38,4 +38,4 @@ root_url = "https://jenkins.shiningpanda.com/matplotlib/"
 
 # A regular expression to match the builds that should have the matrix
 # of Python and Numpy versions updated.
-multiconfig_build_regex = '.*debian-multiconfig$'
+multiconfig_build_regex = '.*multiconfig$'
