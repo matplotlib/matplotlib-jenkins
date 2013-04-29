@@ -21,7 +21,7 @@ versions = {
 main = (2.7, 1.7)
 
 # Additional packages to install in each virtualenv
-additional_packages = ['nose', 'PIL']
+additional_packages = ['nose']
 
 # Additional packages to install in the "main" virtualenv
 main_packages = ['sphinx']
